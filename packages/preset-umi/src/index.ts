@@ -9,7 +9,6 @@ export default () => {
       // features
       require.resolve('./features/monorepo/redirect'),
       require.resolve('./features/appData/appData'),
-      require.resolve('./features/check/check'),
       require.resolve('./features/configPlugins/configPlugins'),
       require.resolve('./features/crossorigin/crossorigin'),
       require.resolve('./features/depsOnDemand/depsOnDemand'),
@@ -26,6 +25,8 @@ export default () => {
       require.resolve('./features/vite/vite'),
       require.resolve('./features/apiRoute/apiRoute'),
       require.resolve('./features/transform/transform'),
+      require.resolve('./features/check/check'),
+
 
 
       // commands

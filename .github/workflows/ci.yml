@@ -75,9 +75,3 @@ jobs:
         env:
           CI: true
           NODE_ENV: test
-       - uses: amondnet/vercel-action@v20 #deploy
-        with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
-          vercel-org-id: ${{ secrets.ORG_ID}}  #Required
-          vercel-project-id: ${{ secrets.PROJECT_ID}} #Required 
-          working-directory: ./docs
