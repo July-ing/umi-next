@@ -7,7 +7,7 @@
 * 类型：`Record<string, string>`
 * 默认值：`{}`
 
-配置别名，对 import 语句的 source 做隐射。
+配置别名，对 import 语句的 source 做隐射。dddd
 
 比如：
 
