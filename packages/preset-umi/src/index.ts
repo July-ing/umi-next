@@ -30,11 +30,11 @@ export default () => {
       // commands
       require.resolve('./commands/build'),
       require.resolve('./commands/config/config'),
-      require.resolve('./commands/dev/dev'),
       require.resolve('./commands/help'),
       require.resolve('./commands/lint'),
       require.resolve('./commands/setup'),
       require.resolve('./commands/version'),
+      require.resolve('./commands/dev/dev'),
       require.resolve('./commands/generators/page'),
       require.resolve('./commands/generators/prettier'),
       require.resolve('./commands/generators/tsconfig'),
