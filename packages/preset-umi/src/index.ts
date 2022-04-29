@@ -4,8 +4,10 @@ export default () => {
   return {
     plugins: [
       // registerMethods
+      require.resolve('./registerMethods'),
 
       // features
+      require.resolve('./features/monorepo/redirect'),
       require.resolve('./features/appData/appData'),
       require.resolve('./features/check/check'),
       require.resolve('./features/configPlugins/configPlugins'),
@@ -24,8 +26,6 @@ export default () => {
       require.resolve('./features/lowImport/lowImport'),
       require.resolve('./features/vite/vite'),
       require.resolve('./features/apiRoute/apiRoute'),
-      require.resolve('./features/monorepo/redirect'),
-      require.resolve('./registerMethods'),
 
       // commands
       require.resolve('./commands/build'),
