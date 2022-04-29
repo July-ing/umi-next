@@ -8,7 +8,7 @@
 
 创建使用浏览器内置 `history` 来跟踪应用的 `BrowserHistory`。推荐在支持 HTML5 `history` 接口的 现代 Web 浏览器中使用。
 
-类型定义如下：
+类型定义如下hahahahah：
 ```typescript
 function createBrowserHistory(options?: { window?: Window }) => BrowserHistory;
 ```
