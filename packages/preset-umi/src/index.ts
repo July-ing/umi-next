@@ -22,10 +22,11 @@ export default () => {
       require.resolve('./features/terminal/terminal'),
       require.resolve('./features/tmpFiles/tmpFiles'),
       require.resolve('./features/tmpFiles/configTypes'),
-      require.resolve('./features/transform/transform'),
       require.resolve('./features/lowImport/lowImport'),
       require.resolve('./features/vite/vite'),
       require.resolve('./features/apiRoute/apiRoute'),
+      require.resolve('./features/transform/transform'),
+
 
       // commands
       require.resolve('./commands/build'),
